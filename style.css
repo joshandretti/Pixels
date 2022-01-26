@@ -210,3 +210,26 @@ header {
     transition: 0.2s all linear;
 }
 
+.box h3 {
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.box span {
+    font-size: 13px;
+}
+
+.coming-container {
+    display: grid;
+    gap: 1rem;
+    max-width: 968px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+  }
+  .coming-container .box-img img:hover {
+    transform: translateY(0);
+  }
+  .coming-container .box {
+    width: 100px;
+  }
