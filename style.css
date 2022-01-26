@@ -227,9 +227,57 @@ header {
     margin-right: auto;
     margin-top: 2rem;
   }
+
   .coming-container .box-img img:hover {
     transform: translateY(0);
   }
+
   .coming-container .box {
     width: 100px;
   }
+
+  .newsletter {
+      max-width: 968px;
+      margin-left: auto;
+      margin-right: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      row-gap: 2rem;
+  }
+
+  .newletter h2 {
+      text-align: center;
+      font-size: 1.2 rem;
+      font-weight: 600;
+  }
+
+  .newletter form {
+      background: var(--bg-color);
+      padding: 10px;
+      border-radius: 0.5rem;
+      display: flex;
+      align-items: center;
+  }
+
+  .newletter form input {
+      border: none;
+      outline: none;
+  }
+
+  .newletter form .email {
+      width: 280px;
+  }
+
+  .newletter form input::placeholder {
+      color: var(--text-color);
+      font-size: 0.8rem;
+      font-weight: 400;
+  }
+
+.newletter .btn {
+    text-transform: uppercase;
+    font-weight: 500;
+    cursor: pointer;
+}
